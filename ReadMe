@@ -1,0 +1,29 @@
+TODO
+
+TIC TAC TOE Game Rules and impementation:
+
+Rules:
+
+In order to win the game any player must fill any row / column / diagonal otherwise game will be Tie.
+
+Implementation:
+
+1: By Default Render 3x3 Grid with Tiles.
+
+2: Set 3 Players (2 friends and 1 computer).
+
+3: Set Winning Conditions (rows / columns / Diagonals).
+
+4: Set a default player to start game.
+
+5: If it's computer's turn than select any random tile from available empty tiles.
+
+6: When a player select any tile validate the result and check if the input is correct and any wining condition matches for the current player or not.
+
+7: If any condition matches than announce the player as winner.
+
+8: If no condition matches and there are still empty tiles than change the player for next round.
+
+9: If all Tiles are filled and no condition matches than announce the result as Tie.
+
+10: After finishing the game Reset the board and start again.
